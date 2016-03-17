@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+slides > slide {
+	width: 1280px;
+	height: 720px;
+	margin-left: -640px;
+	margin-top: -360px;
+	padding: 40px 60px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+slide.littleKingdomTitle {
+	font-family: 'Little Kingdom', LittleKingdom, sans-serif;
+	background: url(../images/emptyTitlePageHD.png);
+}
+
+slide.littleKingdom {
+	color: black;
+	font-size: 35px;
+}
+
+slide.littleKingdom  h1 {
+	font-family: 'Little Kingdom', LittleKingdom, sans-serif;
+	font-size: 70px;
+	line-height: 1.4;
+	letter-spacing: -1px;
+	color: MediumBlue;
+}
+
+.littleKingdomTitle h1.big-title {
+	font-size: 80px;
+	line-height: 1.4;
+/*	letter-spacing: -3px;*/
+	color: black;
+	position: absolute;
+	-webkit-transform: translate(70px,250px);
+	-moz-transform: translate(70px,250px);
+	transform: translate(70px,250px);
+}
+/* line 898, ../scss/default.scss */
+.littleKingdomTitle h1.small-title {
+	font-size: 50px;
+	color: black;
+	position: absolute;
+	-webkit-transform: translate(10px,130px);
+	-moz-transform: translate(10px,130px);
+	transform: translate(10px,130px);
+}
+/* line 898, ../scss/default.scss */
+.littleKingdomTitle h3.author {
+	font-size: 50px;
+	color: black;
+	position: absolute;
+	-webkit-transform: translate(280px,330px) rotate(-3deg);	
+}
+/* line 898, ../scss/default.scss */
+.littleKingdomTitle h3.affiliation {
+	font-size: 50px;
+	color: yellow;
+	position: absolute;
+	-webkit-transform: translate(240px,390px) rotate(-3deg);	
+ }
+
+slide.littleKingdom {
+	background: url(../images/backgroundHD.png);
+}
+
+ul > li:before {
+  content: "";
+}
+ul {
+	list-style: none;
+	list-style-image: url('../images/gaston45.png');
+}
+
