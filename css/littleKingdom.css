@@ -51,6 +51,8 @@ slide.littleKingdomTitle {
 	position: absolute;
 	-webkit-transform: translate(70px,250px);
 	-moz-transform: translate(70px,250px);
+	-ms-transform: translate(70px,250px);
+	-o-transform: translate(70px,250px);
 	transform: translate(70px,250px);
 }
 /* line 898, ../scss/default.scss */
@@ -60,6 +62,8 @@ slide.littleKingdomTitle {
 	position: absolute;
 	-webkit-transform: translate(10px,130px);
 	-moz-transform: translate(10px,130px);
+	-ms-transform: translate(10px,130px);
+	-o-transform: translate(10px,130px);
 	transform: translate(10px,130px);
 }
 /* line 898, ../scss/default.scss */
@@ -71,6 +75,8 @@ slide.littleKingdomTitle {
 	position: absolute;
 	-webkit-transform: translate(280px,330px) rotate(-3deg);	
 	-moz-transform: translate(280px,330px) rotate(-3deg);	
+	-ms-transform: translate(280px,330px) rotate(-3deg);	
+	-o-transform: translate(280px,330px) rotate(-3deg);	
 	transform: translate(280px,330px) rotate(-3deg);	
 }
 /* line 898, ../scss/default.scss */
@@ -80,6 +86,8 @@ slide.littleKingdomTitle {
 	position: absolute;
 	-webkit-transform: translate(240px,390px) rotate(-3deg);
 	-moz-transform: translate(240px,390px) rotate(-3deg);
+	-ms-transform: translate(240px,390px) rotate(-3deg);
+	-o-transform: translate(240px,390px) rotate(-3deg);
 	transform: translate(240px,390px) rotate(-3deg);
  }
 
