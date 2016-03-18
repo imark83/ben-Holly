@@ -48,7 +48,7 @@ URL: https://code.google.com/p/io-2012-slides
 			<h1 class = "big-title">Control of bursting synchronization</h1>
 			<h1 class = "small-title" id="title-curved-text">Central Pattern Generators</h1>
 			<h3 class = "author">Marcos Rodriguez Rodriguez</h3>
-			<h3 class = "affiliation rotate">Centro Universitario de la Defensa</h3>
+			<h3 class = "affiliation">Centro Universitario de la Defensa</h3>
 		</hgroup>
 	</slide>
 
@@ -62,9 +62,100 @@ URL: https://code.google.com/p/io-2012-slides
 		<li> Large range of values for parameters.</li>
 		<li> Lots of initial states of the network.</li>
 	</ul>
+	<br />
+	
+	<div style="margin-top: 40px; margin-left:220px; margin-right:220px; width:auto; background-color:MediumOrchid; padding:10px; border-radius:30px">
+	<div style="text-align: center; padding:20px; border-radius:20px; border: dashed 3.5px white; color: white">
+	Need efficient overview of the Network <br style="line-height:60px;" />
+	Need accurate detection of events
+	</div>
+	</div>
 	</slide>
 
 
+<!-- OUTLINE OF THE TALK -->
+	<slide class="littleKingdom">
+	<h1> Outline </h1>
+	<div style="text-align:center; text-size:80px;">
+		TO DO
+	</div>
+	</slide>
+
+
+	
+<!-- COMPUTING DEVICES -->
+	<slide class="littleKingdom">
+	<h1> Widely spread computing devices </h1>
+	
+	<table id="devices" style="margin-left:10%;width:80%">
+	<tr>
+		<td> <img src="images/intel.png" width="140px"></td>
+		<td> Intel Core i5 2800S
+			<ul>
+				<li>Desktop CPU with 4 cores at 2800MHz</li>
+			<ul>
+		</td>
+	</tr>	
+	
+	<tr>
+		<td style="text-align:center; padding:0px;"> <img style="height:110px;" src="images/amd.png"></td>
+		<td style="padding-bottom:0px;"> AMD HD Radeon 6750M
+			<ul>
+				<li style="padding-top:20px">Laptop GPU with 512 AMD<br />unified shaders at 600 MHz</li>
+			<ul>
+		</td>
+	</tr>		
+	
+	<tr>
+		<td style="text-align:center; padding:0px;"> <img style="height:110px;" src="images/radeon.png"></td>
+		<td style="padding-bottom:0px;"> AMD HD Radeon 7950
+			<ul>
+				<li style="padding-top:20px">Desktop GPU with 1792 Stream<br />Processing Units at 800 MHz</li>
+			<ul>
+		</td>
+	</tr>		
+	
+	<tr>
+		<td style="text-align:center; padding:0px;"> <img style="height:110px;" src="images/tesla.png"></td>
+		<td style="padding-bottom:0px;"> AMD HD Radeon 7950
+			<ul>
+				<li style="padding-top:20px">Workstation GPU<br />with 448 CUDA cores at 1148 MHz</li>
+			<ul>
+		</td>
+	</tr>		
+	</table>
+	
+	</slide>
+
+
+<!-- OPENCL COMPARISON -->
+	<slide id="comparison" class="littleKingdom">
+	<h1>
+		Technology comparison 
+		<img style="margin-bottom:20px;" src="images/orange-flower.png" width="30px" /> 
+	</h1>
+	<h2>Intel vs AMD vs NVIDIA (Taylor Series Method)</h2>
+	<div style="text-align:center; margin:20px">
+		<div style="display: inline-block; width:400px">
+			<img width="400px" src="/figs/c3Bis.svg" />
+			<div style="font-size:25px"> 32-bit floating point </div>
+		</div>		
+		<div style="display: inline-block; width:400px">
+			<img width="400px" src="/figs/c4Bis.svg" />
+			<div style="font-size:25px"> 64-bit floating point </div>
+		</div>		
+	</div>
+	<ul class="build fade">
+		<li style="font-size:25px"> Choose carefully the device for the desired arithmetic (32 or 64 bits).
+	</ul>
+	
+	<footer>
+	<img style="float:left; margin-right:5px;" src="images/orange-flower.png" width="30px" /> 
+	Rodríguez, M. , Blesa, F., Barrio, R., OpenCL parallel integration of ordinary differential equations:
+Applications in computational dynamics, 2015, 192, 228–236
+	</footer>
+	
+	</slide>
 
 <!-- SLIDE CON ALGO EN LATEX -->
 	<slide class="littleKingdom">
@@ -447,6 +538,9 @@ function helloWorld(world) {
 
 	<slide class="backdrop"></slide>
 
+	<slide>
+	<h2> $$\frac{x}{2} = \lim_{n\to\infty} {n^2}$$ </h2>
+	</slide>
 </slides>
 
 <script>

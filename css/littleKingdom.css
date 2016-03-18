@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+slides > slide:not(.nobackground):before {
+	background:none;
+}
 slides > slide {
 	width: 1280px;
 	height: 720px;
@@ -12,22 +15,25 @@ slides > slide {
 	-o-border-radius: 8px;
 	border-radius: 8px;
 }
+
+
+footer {
+	position: absolute;
+	width:auto;
+	bottom: 0px;
+	left:0px;
+	padding:0px 30px 30px 30px;
+	font-size:20px;
+
+}
+
+slides > slide.littleKingdomTitle:after {
+	content: "";
+}
+
 slide.littleKingdomTitle {
 	font-family: 'Little Kingdom', LittleKingdom, sans-serif;
 	background: url(../images/emptyTitlePageHD.png);
-}
-
-slide.littleKingdom {
-	color: black;
-	font-size: 35px;
-}
-
-slide.littleKingdom  h1 {
-	font-family: 'Little Kingdom', LittleKingdom, sans-serif;
-	font-size: 70px;
-	line-height: 1.4;
-	letter-spacing: -1px;
-	color: MediumBlue;
 }
 
 .littleKingdomTitle h1.big-title {
@@ -50,18 +56,24 @@ slide.littleKingdom  h1 {
 	transform: translate(10px,130px);
 }
 /* line 898, ../scss/default.scss */
+
+
 .littleKingdomTitle h3.author {
 	font-size: 50px;
 	color: black;
 	position: absolute;
 	-webkit-transform: translate(280px,330px) rotate(-3deg);	
+	-moz-transform: translate(280px,330px) rotate(-3deg);	
+	transform: translate(280px,330px) rotate(-3deg);	
 }
 /* line 898, ../scss/default.scss */
 .littleKingdomTitle h3.affiliation {
 	font-size: 50px;
 	color: yellow;
 	position: absolute;
-	-webkit-transform: translate(240px,390px) rotate(-3deg);	
+	-webkit-transform: translate(240px,390px) rotate(-3deg);
+	-moz-transform: translate(240px,390px) rotate(-3deg);
+	transform: translate(240px,390px) rotate(-3deg);
  }
 
 slide.littleKingdom {
@@ -69,10 +81,90 @@ slide.littleKingdom {
 }
 
 ul > li:before {
-  content: "";
+	margin-left: -55px;
+	content: "";
+	background: url(../images/gaston.png) no-repeat;
+	background-size: contain;
+	width: 55px;
+	height: 33px;
+	
+}
+ul li{
+	margin-left:35px;
 }
 ul {
 	list-style: none;
-	list-style-image: url('../images/gaston45.png');
+}
+
+slide.littleKingdom {
+	color: black;
+	font-size: 30px;
+}
+
+slide.littleKingdom	h1 {
+	font-family: 'Little Kingdom', LittleKingdom, sans-serif;
+	font-size: 70px;
+	text-align:center;
+	line-height: 1.4;
+	letter-spacing: -1px;
+	color: MediumBlue;
+	margin-top: -15px;
+	margin-bottom: 30px;
+}
+
+slide.littleKingdom	h2 {
+	font-family: 'Little Kingdom', LittleKingdom, sans-serif;
+	font-size: 30px;
+	text-align:center;
+	line-height: 1.4;
+	letter-spacing: -1px;
+	color: black;
+	margin-top: -15px;
+	margin-bottom: 10px;
+}
+
+table {
+	margin-top: 1px;
+	border-bottom: none;
+}
+
+table td {
+	font-size:inherit;
+	padding:10px;
+}
+
+table tr:nth-child(odd) {
+  background: none;
+}
+table tr:nth-child(even) {
+  background: none;
+}
+
+
+table#devices {
+    border-spacing: 1px;
+}
+
+table#devices td:nth-child(1) {
+	padding:0px;
+	margin:0px;
+	text-align:center;
+}
+
+table#devices td:nth-child(2) {	
+	padding: 0px;
+}
+
+
+table#devices img {
+	margin: 0px;
+	padding:0px;
+}
+	
+	
+slide#comparison footer:before {
+}
+slide#comparison footer {
+	font-style:italic;
 }
 
