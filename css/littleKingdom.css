@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: "Little Kingdom";
+  src: url("../LittleKingdom.ttf");
+  [font-weight: <peso>];
+  [font-style: <estilo>];
+}
+
 slides > slide:not(.nobackground):before {
 	background:none;
 }
