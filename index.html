@@ -156,6 +156,60 @@ Applications in computational dynamics, 2015, 192, 228–236
 	</footer>
 	
 	</slide>
+	
+	
+	
+<!-- The leech heart interneuron model -->
+	<slide class="littleKingdom">
+	<h1> The leech heart interneuron model </h1>
+	<h2> Shilnikov, Calabrese, Cymbalyuk </h2>
+	<table style="vertical-align:bottom;> <tr style="left-margin:-10px;">
+	<td>
+	\begin{align} \scriptsize
+		  \label{eq:model}
+		  \left\{
+			\begin{aligned}
+			  &C\,\displaystyle\frac{\textrm{d}V}{\textrm{d}t} = -I_\text{Na} - I_\text{K$_2$}
+				       - I_\text{L} - I_\text{app} - I_\text{syn},\\
+			  & \quad
+				\begin{aligned}
+				  &I_\text{Na} = g_\text{Na}\,m^3_\text{Na}\, h_\text{Na}(V-E_\text{Na}), \quad
+				  m_\text{Na} = m^\infty_\text{Na}(V),                                \\
+				  & I_\text{K$_2$} = \bar{g}_\text{K$_2$}\,
+				                                   m^2_\text{K$_2$}(V-E_\text{K}), \quad
+				  I_\text{L} = \bar{g}_\text{L}(V-E_\text{L}),                        \\
+				\end{aligned}
+				\\
+			  &\tau_\text{Na}\,\displaystyle\frac{\textrm{d}h_\text{Na}}{\textrm{d}t} = h^\infty_\text{Na}(V) - h_\text{Na},  \\
+			  &\tau_\text{K$_2$}\,\displaystyle\frac{\textrm{d}m_\text{K$_2$}}{\textrm{d}t} = m^\infty_\text{K$_2$}- m_\text{K$_2$},
+			\end{aligned}
+		  \right.
+	\end{align}
+	</td>
+	<td style="vertical-align:bottom">
+	\begin{align}
+	& \scriptsize h^\infty_\text{Na} (V ) = [1 + \exp (500(0.0333 − V))]^{-1}\\
+	& \scriptsize m^\infty_\text{Na} (V ) = [1 + \exp (-150(0.0305 − V))]^{-1}\\
+	& \scriptsize m^\infty_{\text{K}_2} (V ) = [1 + \exp (500(0.0333 − V))]^{-1}
+	\end{align}
+	</td>
+	</tr></table>
+	<ul>
+		<li> $I_\text{app}$ is the external applied current </li>
+		<li> $V_{\text{K}_2}^\text{shift}$ is the deviation from experimentally average voltage value.
+	</ul>
+	</slide>
+
+
+
+
+<!-- LEECH MODEL PICTURE -->
+	<slide class="littleKingdom">
+	<h1>The leech heart interneuron model</h1>
+	
+	
+	</slide>
+	
 
 <!-- SLIDE CON ALGO EN LATEX -->
 	<slide class="littleKingdom">
