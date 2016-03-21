@@ -36,6 +36,13 @@ URL: https://code.google.com/p/io-2012-slides
 	
 	<!-- AT THE END OF THE DOCUMENT THEREIS A SCRIPT FOR CURVED TEXT -->
 	
+	<script>
+		function myFullScreen () {
+			document.body.webkitRequestFullScreen();
+		}
+	
+	</script>
+	
 	
 </head>
 <body>
@@ -48,7 +55,7 @@ URL: https://code.google.com/p/io-2012-slides
 			<h1 class = "big-title">Control of bursting synchronization</h1>
 			<h1 class = "small-title" id="title-curved-text">Central Pattern Generators</h1>
 			<h3 class = "author">Marcos Rodriguez Rodriguez</h3>
-			<h3 class = "affiliation">Centro Universitario de la Defensa</h3>
+			<h3 onclick = "myFullScreen()" class = "affiliation">Centro Universitario de la Defensa</h3>
 		</hgroup>
 	</slide>
 
@@ -117,7 +124,7 @@ URL: https://code.google.com/p/io-2012-slides
 	
 	<tr>
 		<td style="text-align:center; padding:0px;"> <img style="height:110px;" src="images/tesla.png"></td>
-		<td style="padding-bottom:0px;"> AMD HD Radeon 7950
+		<td style="padding-bottom:0px;"> NVIDIA Tesla C2075
 			<ul>
 				<li style="padding-top:20px">Workstation GPU<br />with 448 CUDA cores at 1148 MHz</li>
 			<ul>
